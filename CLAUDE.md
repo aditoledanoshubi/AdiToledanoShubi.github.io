@@ -32,9 +32,18 @@ Plain HTML + CSS personal academic website. No build step — a single `index.ht
 3. **Abstracts in Refereed Journal Supplements** — conference abstracts
 4. **Talks & Presentations** — newest first, `entry-tag` for Poster / Co-author / Opening lecture
 5. **Bio** — Education, Research Grants, Awards, Teaching, Clinical & Professional Experience, Academic Service
+6. **Beyond Research** — Ironman finisher
 
-The template's Media Coverage and Beyond Research sections were removed. The inert
-`#media` and `.hike` handlers remain in the tail script; they no-op until such markup exists.
+The template's Media Coverage section was removed. The inert `#media` and `.hike`
+handlers remain in the tail script; they no-op until such markup exists.
+
+### Verified external links
+
+All external links were checked. Publisher DOIs return 403 to command-line clients
+(bot blocking) but resolve to the correct article pages in a browser. The Scholar and
+ORCID profiles were confirmed to be hers by name. The department link is
+`https://hw.haifa.ac.il/pt-en/?lang=en` — note the department lives under the faculty
+host `hw.haifa.ac.il`, not a `*.haifa.ac.il` subdomain of its own.
 
 ### Adding a publication
 
