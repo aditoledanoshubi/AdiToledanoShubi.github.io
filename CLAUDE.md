@@ -50,7 +50,24 @@ stub so the permalink resolves.
 breakpoint. Without this the "Expand all" button forces ~10px of horizontal page overflow
 on phones. The upstream template still has that quirk.
 
+### Sources
+
+Content comes from three documents Adi supplied:
+
+- Hebrew CV (August 2026) — the most current; authoritative for the postdoc, grants,
+  amounts, and the 2025/2026 talks
+- `Publication list Adi Toledano Shubi.docx` (August 2026) — authoritative for the
+  seven journal articles, their ordering, and the impact-factor/quartile lines
+- English university CV (August 2025) — a year older, but authoritative for English
+  wording: course names, conference and award titles, the dissertation title, and the
+  funder spelling "Rina Brik Foundation"
+
+Where the Hebrew CV and the English CV disagree (e.g. the KAMIN grant years and role),
+the newer Hebrew CV wins.
+
 ### Still to fill in
 
-- Google Scholar, ORCID, and LinkedIn URLs — the `social-links` block in `index.html` is
-  commented out until these are known.
+- LinkedIn URL — there is a TODO comment in the `social-links` block in `index.html`.
+- Full author lists for the CVPR 2022 and BIO2006 entries; both currently end in
+  "et al." because the English CV abbreviates them, and neither has a DOI/paper link.
+  These two are in the English CV but not on her August 2026 publication list.
